@@ -5,6 +5,7 @@ public class Main {
         Bank bank = new Bank("BImal",2345);
         bank.addBalance();
         System.out.println(bank.toString());
+        System.out.println(bank.getBalance());
 
     }
 }
